@@ -3,11 +3,10 @@ int main() {
     int num;
     printf("zadejte celé číslo: ");
     scanf("%d", &num);
-
     if(num % 2 == 0)
-        printf("%d číslo je sudé.", num);
+        printf("%d sudé.", num);
     else
-        printf("%d číslo je liché.", num);
+        printf("%d liché.", num);
     
     return 0;
 }
